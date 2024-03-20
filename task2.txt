@@ -1,0 +1,59 @@
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT:
+
+OBJECTS:
+
+=>Objects are important data types in JavaScript.
+=>A JavaScript object is a collection of named values having state and behavior (properties and method).
+=>Objects are Different than primitive datatypes(i.e.number,strings,boolean,undefined,null,bigint).
+=>Primitive datatypes contains one value but Objects can hold many values in form of key:value pair.
+
+=>For Example:
+
+Make: Hyundai i20
+Model: B-Class
+Color: Red
+Fuel:petrol
+Weight: 1040kg
+Mileage: 20Kmpl
+Rating: 4.5
+  
+=>The following code assigns a simple value  to a variable name: 
+var car="Hyundai i20"
+
+OBJECT PROPERTIES:
+
+=>The name:values pairs in JavaScript objects are called properties.
+
+=>The following code assigns many values (Hyundai i20,B-class,Red and soo on) to a variable named Car:
+var car={Make:"Hyundai i20",Model: "B-Class",Color: "Red",Fuel:"petrol",Weight: "1040kg",
+Mileage: "20Kmpl",Rating: 4.5}
+
+=>syntax:-
+var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
+
+=>syntax for adding a property to an object:-
+ObjectName.ObjectProperty=propertyValues;
+
+=> syntax for deleting a property from an object:-
+delete ObjectName.ObjectProperty;
+
+=> syntax to access a property from an object :-
+objectName.property        // Car.Make
+           (or)
+objectName["property”]    // Car["Make"]
+           (or)
+objectName[expression]   // x = "Make"; Car[x]
+
+=> “Properties are the values associated with a JavaScript object”
+
+OBJECT METHODS:-
+
+=>An object method is an object property containing a function definition.
+
+=>syntax:
+Example: 
+let's assume to start the car there will be a mechanical functionality.
+function(){return ignition.on}
+
+=>“Methods are actions that can be performed on objects”
+
